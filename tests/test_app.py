@@ -2,7 +2,7 @@ import src.app as app_module
 
 
 def test_root_redirects_to_static_index(client):
-    # Arrange 
+    # Arrange
 
     # Act
     response = client.get("/", follow_redirects=False)
